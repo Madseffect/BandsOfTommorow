@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace BOTProjekt
 {
-    internal class Booking
+     class Booking
     {
+        
+        // Ting der bare skal slettes!! 
         //Test for commit's
         public string Lokale { get; set; }
         public string Kursus { get; set; }
