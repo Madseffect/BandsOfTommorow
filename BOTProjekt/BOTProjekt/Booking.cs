@@ -15,6 +15,12 @@ namespace BOTProjekt
         {
             Lokale = lokale;
             Kursus = kursus;
+        
+
+    }
+
+        public override string ToString()
+        {
+            return $"Lokale: {Lokale}, Kursus: {Kursus}";
         }
     }
-}
